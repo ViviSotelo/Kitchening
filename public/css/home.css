@@ -1,0 +1,46 @@
+body.home {
+    background-image: url('/img/bg-body.png');/* solo aplica al home de boby */
+}
+.home__box-banner {
+    display: none; /* para sacar la imag del banner */
+}
+
+.home__box-products {
+    margin: 30px 0; /* para separar lo de arriba */
+}
+.home__product__box-image{
+    position: relative; /* este se popne relativa para que la imagen del sticker se ponga absoluta y quede superpuesta laimagen dentrode la caja que la contiene */
+}
+
+.home__product__image{
+    width: 100%;
+}
+
+.home__product__sticker{
+    position: absolute;/* aca lo estoy acomodando arriba a la derecha con un margen de 10px del lado derecho,(pero te lavdeja arriba de la pag, por eso mas arriba esta laotra posicion)*/
+    top: 0%;
+    right: 10px;
+}
+.home__product__box__zoom {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    left: 0px;/* maneja la caja */
+    padding: 10px 0;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;/* maneja el contenido */
+    top: 45%;
+    width: 100%;/* no ocupa el 100 por ser un elemento en linea */
+}
+.home__product h4 {
+    margin: 10px 0;
+}
+
+.home__product__more {
+    background-color: var(--colorGrisOscuro);
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 0;
+    text-align: center;
+    width: 80px;
+}

@@ -1,14 +1,15 @@
+/* todos los arreglos qye se aplican a todos los elementos se aplican acà */
 * {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    box-sizing: border-box; /* para que respete el ancho que se le va a dar */
+    margin: 0%; /* para que yo le de los margenes que necesito */
+    padding: 0%; /* para que yo le de los margenes que necesito */
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* atodo el body se le pone un estilo de letra */
 }
 
-a {
+a {/* a todas las se les saca el subrallado */
     text-decoration: none;
     color: white;
 }
@@ -16,3 +17,7 @@ a {
 li {
     list-style: none;
 }
+
+/* img {
+    width: 100%; para no tener problema con el centrado 
+} */

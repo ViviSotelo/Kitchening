@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- para que la pagina se adapte a cualquier dispositivo CREO!!!! -->
     <title>Kitchening</title>
     <link rel="stylesheet" href="/css/styles.css">
 
@@ -11,9 +11,12 @@
 </head>
 <body class="home">
     <header>
-        <img src="/img/logo.jpg" alt="">
+        
+        <div class="header__logo">
+
+        </div>
         <button><i class="fas fa-bars"></i></button>
-        <nav>
+        <nav class="header__menu"> 
                 <ul>
                     <li><a href="">home</a></li>
                     <li><a href="">quienes</a></li>
@@ -25,74 +28,89 @@
         </nav>
     </header>
     <main>
-        <section class="box-banner">
+        <section class="home__box-banner">
             <img src="/img/img-banner.jpg" alt="banner">
-
-        </section>
-        <section class="box-products">
-            <article>
-                <div>
-                    <img src="/img/img-pdto-1.jpg" alt="imagen-producto">
-                    <img src="/img/img-nuevo.png" alt="sticker-descuento">
-                    <a href="" class="label"></a>
+         </section>
+        <section class="home__box-products">
+            <article class="home__product">
+                <div class="home__product__box-image">
+                    <img class="home__product__image" src="/img/img-pdto-1.jpg" alt="">
+                    <img class="home__product__sticker" src="/img/img-nuevo.png" alt="sticker-descuento">
+                    <a href="" class="home__product__box__zoom">Ampliar foto</a>
                 </div>
                 <h4>Lorem ipsum dolor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Maxime unde libero quidem.</p>
+                    <a class="home__product__more" href="#">ver mas</a>
             </article>
-            <article>
-                <div>
-                    <img src="/img/img-pdto-2.jpg" alt="imagen-producto">
-                    <img src="/img/img-gratis.png" alt="sticker-descuento">
-                    <a href="" class="label"></a>
+            <article class="home__product">
+                <div class="home__product__box-image">
+                    <img class="home__product__image" src="/img/img-pdto-2.jpg" alt="">
+                    <img class="home__product__sticker" src="/img/img-gratis.png" alt="sticker-descuento">
+                    <a href="" class="home__product__box__zoom">Ampliar foto</a>
                 </div>
                 <h4>Lorem ipsum dolor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Maxime unde libero quidem.</p>
+                    <a class="home__product__more" href="#">ver mas</a>
             </article>
-            <article>
-                <div>
-                    <img src="/img/img-pdto-3.jpg" alt="imagen-producto">
-                    <img src="/img/img-descuento.png" alt="sticker-descuento">
-                    <a href="" class="label"></a>
+            <article class="home__product">
+                <div class="home__product__box-image">
+                    <img class="home__product__image" src="/img/img-pdto-3.jpg" alt="">
+                    <img class="home__product__sticker" src="/img/img-descuento.png" alt="sticker-descuento">
+                    <a href="" class="home__product__box__zoom">Ampliar foto</a>
                 </div>
                 <h4>Lorem ipsum dolor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Maxime unde libero quidem.</p>
+                    <a class="home__product__more" href="#">ver mas</a>
             </article>
-            <article>
-                <div>
-                    <img src="/img/img-pdto-1.jpg" alt="imagen-producto">
-                    <img src="/img/img-nuevo.png" alt="sticker-descuento">
-                    <a href="" class="label"></a>
+            <article class="home__product">
+                <div class="home__product__box-image">
+                    <img class="home__product__image" src="/img/img-pdto-1.jpg" alt="">
+                    <img class="home__product__sticker" src="/img/img-nuevo.png" alt="sticker-descuento">
+                    <a href="" class="home__product__box__zoom">Ampliar foto</a>
                 </div>
                 <h4>Lorem ipsum dolor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Maxime unde libero quidem.</p>
+                    <a class="home__product__more" href="#">ver mas</a>
             </article>
-            <article>
-                <div>
-                    <img src="/img/img-pdto-2.jpg" alt="imagen-producto">
-                    <img src="/img/img-gratis.png" alt="sticker-descuento">
-                    <a href="" class="label"></a>
+            <article class="home__product">
+                <div class="home__product__box-image">
+                    <img class="home__product__image" src="/img/img-pdto-2.jpg" alt="">
+                    <img class="home__product__sticker" src="/img/img-gratis.png" alt="sticker-descuento">
+                    <a href="" class="home__product__box__zoom">Ampliar foto</a>
                 </div>
                 <h4>Lorem ipsum dolor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Maxime unde libero quidem.</p>
+                    <a class="home__product__more" href="#">ver mas</a>
             </article>
-            <article>
-                <div>
-                    <img src="/img/img-pdto-3.jpg" alt="imagen-producto">
-                    <img src="/img/img-descuento.png" alt="sticker-descuento">
-                    <a href="" class="label"></a>
+            <article class="home__product">
+                <div class="home__product__box-image">
+                    <img class="home__product__image" src="/img/img-pdto-3.jpg" alt="">
+                    <img class="home__product__sticker" src="/img/img-descuento.png" alt="sticker-descuento">
+                    <a href="" class="home__product__box__zoom">Ampliar foto</a>
                 </div>
                 <h4>Lorem ipsum dolor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Maxime unde libero quidem.</p>
+                    <a class="home__product__more" href="#">ver mas</a>
             </article>
-
-
         </section>
     </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">quienes</a></li>
+                <li><a href="">servicios</a></li>
+                <li><a href="">portfolio</a></li>
+                <li><a href="">sucursales</a></li>
+                <li><a href="">contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

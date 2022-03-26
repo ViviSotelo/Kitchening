@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+}
+ 
+.header__logo {
+    border-radius: 50%;/* se aplica solo si la imagen es cuadrada para pasar a redondo */
+    border: solid 1px var(--colorGrisClaro);/* para el borde */
+    width: 180px;/* es el ancho */
+    height: 180px;/* es el alto */
+    background-image: url('/img/logo.jpg');
+    background-position: center; /* para centrar la foto del logo*/
+    background-size: cover;
+    margin: 15px auto 30px; /* es para darle el espacio 15=arriba, auto=costados, 30=abajo */
+}
+
+header button{
+    background-color: var(--colorGrisOscuro); /* para el fondo del boton */
+    border: none;/* se saca losbordes */
+    border-radius: 5px; /* para que las puntas seas redondas */
+    color: white;/* color de la fuente */
+    display: block; /* para centrar creo, se lo utiliza en block para ponerlo en bloque, es este caso porque se una en mobile */
+    font-size: 32px;/* para agrandar las lineas*/
+    width: 50px; /* ancho del boton no de lo que esta adentro(las lineas)*/
+    padding: 5px; 
+    margin: 0px auto 30px;/* 0=arriba,auto=costados,30=abajo */
+}
+.header__menu li{
+    width: 100%; /* despues se  modifica */
+    background-color: var(--colorRojo);
+    text-transform: uppercase;/* los pasa a mayuscula */
+    text-align: center;/* lo centra */
+    padding: 10px 0;/* para que se separe de arriba a bajo 10px de los  costados nada */
+    border-bottom: solid 2px white;/* para poner laparte de abajo el separadose 2px y blanco */
+}
