@@ -13,7 +13,7 @@ header {
     margin: 15px auto 30px; /* es para darle el espacio 15=arriba, auto=costados, 30=abajo */
 }
 
-header button{
+.header__burger{
     background-color: var(--colorGrisOscuro); /* para el fondo del boton */
     border: none;/* se saca losbordes */
     border-radius: 5px; /* para que las puntas seas redondas */
@@ -26,9 +26,37 @@ header button{
 }
 .header__menu li{
     width: 100%; /* despues se  modifica */
-    background-color: var(--colorRojo);
+    background-color: var(--colorGrisOscuro);
     text-transform: uppercase;/* los pasa a mayuscula */
     text-align: center;/* lo centra */
     padding: 10px 0;/* para que se separe de arriba a bajo 10px de los  costados nada */
     border-bottom: solid 2px white;/* para poner laparte de abajo el separadose 2px y blanco */
+}
+
+/* tablet */
+@media (min-width : 460px){
+    .header__burger{
+        display: none; /* para centrar creo, se lo utiliza en block para ponerlo en bloque, es este caso porque se una en mobile */
+       
+    }
+    .header__menu ul{
+        overflow: hidden;
+    }
+
+    .header__menu li{
+      width: 15.5%;  
+      font-size: 0.6rem;
+      float: left;
+      margin-right: 1.4%;
+    }
+    .header__menu li:last-child{/* last-child hasce referencia al ultimo elemento */
+        margin-right: 0%;
+    }
+}
+
+/* laptop */
+@media (min-width: 768px){
+    .header__menu li {
+        font-size: 1rem;
+    }
 }

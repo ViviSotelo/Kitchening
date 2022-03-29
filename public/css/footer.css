@@ -1,0 +1,8 @@
+.footer__menu li{
+    width: 100%; /* despues se  modifica */
+    background-color: var(--colorRojo);
+    text-transform: uppercase;/* los pasa a mayuscula */
+    text-align: center;/* lo centra */
+    padding: 10px 0;/* para que se separe de arriba a bajo 10px de los  costados nada */
+    border-bottom: solid 2px white;/* para poner laparte de abajo el separadose 2px y blanco */
+}

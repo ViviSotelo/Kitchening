@@ -44,3 +44,32 @@ body.home {
     text-align: center;
     width: 80px;
 }
+
+/* tablets*/
+
+@media (min-width: 460px){
+
+    /* banner */
+
+    .home__box-banner{
+        display: block;
+        margin-top: 30px;
+    }
+    .home__box-banner img{
+        width: 100%;
+    }
+
+    /* products */
+    .home__box-products{
+        overflow: hidden;
+    }
+
+    .home__product {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    .home__product:nth-child(even)/* aplica a los elementos even=pares */{
+        margin-right: 0%;
+
+}
