@@ -71,5 +71,23 @@ body.home {
     }
     .home__product:nth-child(even)/* aplica a los elementos even=pares */{
         margin-right: 0%;
+   }
+}
 
+/* laptops */
+@media (min-width : 768px) {
+
+    .home__product{
+        width: 32%;
+        margin-right: 2%;
+        
+    }
+
+     .home__product:nth-child(even){
+        margin-right: 2%;
+    } 
+
+     .home__product:nth-child(3n){
+        margin-right: 0%;
+    } 
 }

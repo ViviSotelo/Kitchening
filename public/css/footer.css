@@ -6,3 +6,29 @@
     padding: 10px 0;/* para que se separe de arriba a bajo 10px de los  costados nada */
     border-bottom: solid 2px white;/* para poner laparte de abajo el separadose 2px y blanco */
 }
+
+@media (min-width: 768px){
+    .footer__menu{
+        background-color: var(--colorRojo);
+        width: 100%;
+        padding: 60px 0;
+        text-align: center;
+        border-radius: 20px 20px 0px 0px;/* se pone al sentido del reloj el 1º el arriba izquierda */
+    }
+
+    .footer__menu li{
+        width: 110px;
+        border-bottom: 0;
+        display: inline-block;
+        text-transform: capitalize;/* pone la primera letra en mayuscula */
+        border-right: solid 2px white;/* para poner las barritas */
+        padding: 5px 0;
+
+    }
+
+     .footer__menu li:last-child{
+       
+        border-right: none;/* para sacarle labarrita al ultimo */
+
+    }
+}

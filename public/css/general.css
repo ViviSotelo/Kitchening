@@ -7,6 +7,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* atodo el body se le pone un estilo de letra */
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 a {/* a todas las se les saca el subrallado */
