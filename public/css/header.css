@@ -11,6 +11,7 @@ header {
     width: 180px;/* es el ancho */
     height: 180px;/* es el alto */
     margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 
@@ -23,6 +24,7 @@ header {
     width: 50px; /* ancho del boton no de lo que esta adentro(las lineas)*/
     padding: 5px; 
     margin-bottom: 30px;
+    /* margin-top: 20px; */
 
     
 }
@@ -50,6 +52,7 @@ header {
 @media (min-width : 460px){
     .header__burger{
         display: none; /* para centrar creo, se lo utiliza en block para ponerlo en bloque, es este caso porque se una en mobile */
+        
        
     }
     .header__menu ul{
