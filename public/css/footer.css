@@ -1,5 +1,14 @@
+.footer__menu{
+    background-color: var(--colorRojo);
+    width: 100%;
+}
+.footer__menu ul{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__menu li{
-    width: 100%; /* despues se  modifica */
+   
     background-color: var(--colorRojo);
     text-transform: uppercase;/* los pasa a mayuscula */
     text-align: center;/* lo centra */
@@ -9,11 +18,15 @@
 
 @media (min-width: 768px){
     .footer__menu{
-        background-color: var(--colorRojo);
-        width: 100%;
+       
         padding: 60px 0;
-        text-align: center;
         border-radius: 20px 20px 0px 0px;/* se pone al sentido del reloj el 1º el arriba izquierda */
+    }
+
+    .footer__menu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .footer__menu li{
